@@ -26,3 +26,11 @@
 \newcommand{\grade}[2]{
   #1 {\raggedleft\hfill #2} \newline
 }
+
+\newcommand{\name}[1]{
+  \centerline{\Huge{#1}}
+}
+
+\newcommand{\address}[1]{
+  \centerline{#1}
+}
