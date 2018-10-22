@@ -23,8 +23,14 @@
   \subsection[#1]{#1 \hfill #2}%
 }
 
+
+
 \newcommand{\grade}[2]{
   #1 {\raggedleft\hfill #2} \newline
+}
+
+\newcommand{\module}[2]{
+  
 }
 
 \newcommand{\name}[1]{
@@ -33,4 +39,8 @@
 
 \newcommand{\address}[1]{
   \centerline{#1}
+}
+
+\newcommand{\modules}[2]{
+  \
 }
