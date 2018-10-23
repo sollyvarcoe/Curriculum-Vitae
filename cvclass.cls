@@ -26,7 +26,7 @@
 
 
 \newcommand{\grade}[2]{
-  #1 {\raggedleft\hfill (#2)}
+  #1 { \hfill#2\hfill}
 }
 
 \newcommand{\module}[2]{
