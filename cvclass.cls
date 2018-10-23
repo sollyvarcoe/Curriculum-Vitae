@@ -9,18 +9,17 @@
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]
-
   \titleformat{\subsection}
   {\large\scshape\raggedright}
   {}{0em}
   {}
 
-\newcommand{\datedsection}[2]{%
-  \section[#1]{#1 \hfill #2}%
+\newcommand{\datedsection}[2]{
+  \section[#1]{#1 \hfill #2}
 }
 
-\newcommand{\datedsubsection}[2]{%
-  \subsection[#1]{#1 \hfill #2}%
+\newcommand{\datedsubsection}[2]{
+  \subsection[#1]{#1 \hfill #2}
 }
 
 
@@ -30,7 +29,7 @@
 }
 
 \newcommand{\module}[2]{
-  
+
 }
 
 \newcommand{\name}[1]{
@@ -39,8 +38,4 @@
 
 \newcommand{\address}[1]{
   \centerline{#1}
-}
-
-\newcommand{\modules}[2]{
-  \
 }
