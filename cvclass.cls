@@ -2,6 +2,7 @@
 \ProvidesClass{cvclass}[2018/10/15 My custom CV class]
 \LoadClass{article}
 \RequirePackage{titlesec}
+\RequirePackage{mdwlist}
 \RequirePackage[margin=0.5in]{geometry}
 
 \titleformat{\section}         % Customise the \section command
@@ -25,7 +26,7 @@
 
 
 \newcommand{\grade}[2]{
-  #1 {\raggedleft\hfill #2} \newline
+  #1 {\raggedleft\hfill (#2)}
 }
 
 \newcommand{\module}[2]{
