@@ -29,6 +29,10 @@
   #1 { \hfill#2\hfill}
 }
 
+\newcommand{\gradeprime}[2]{
+  #1 { \hfill#2}
+}
+
 \newcommand{\module}[2]{
 
 }
