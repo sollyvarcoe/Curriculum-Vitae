@@ -4,6 +4,7 @@
 \RequirePackage{titlesec}
 \RequirePackage{mdwlist}
 \RequirePackage[margin=0.5in]{geometry}
+\pagenumbering{gobble}
 
 \titleformat{\section}         % Customise the \section command
   {\Large\scshape\raggedright} % Make the \section headers large (\Large),
