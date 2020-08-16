@@ -3,6 +3,7 @@
 \LoadClass{article}
 \RequirePackage{titlesec}
 \RequirePackage{mdwlist}
+\usepackage{tabu}
 \RequirePackage[margin=0.5in]{geometry}
 \pagenumbering{gobble}
 
@@ -17,13 +18,20 @@
   {}
 
 \newcommand{\datedsection}[2]{
-  \section[#1]{#1 \hfill #2}
+  \section[#1]{\textbf{#1} \hfill #2}
 }
 
 \newcommand{\datedsubsection}[2]{
-  \subsection[#1]{#1 \hfill #2}
+  \subsection[#1]{\begin{tabu} to \linewidth {@{} X[l,p] X[r,p] @{}}
+	\textbf{#1} & \textbf{#2}\\
+\end{tabu}}
 }
 
+\newcommand{\datedjob}[3]{
+\subsection[#1]{\begin{tabu} to 1\textwidth {@{} X[l,p] X[c,p] X[r,p] @{}}
+	\textbf{#1} & \textbf{#2} & \textbf{#3} \\
+\end{tabu}}
+}
 
 
 \newcommand{\grade}[2]{
@@ -45,3 +53,6 @@
 \newcommand{\address}[1]{
   \centerline{#1}
 }
+
+
+
